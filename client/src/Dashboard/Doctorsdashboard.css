@@ -1,0 +1,58 @@
+.appointment_table{
+    margin-left: 50px;
+}
+.appointment_table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .appointment_table th,
+  .appointment_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .appointment_table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .appointment_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .appointment_table tr:hover {
+    background-color: #ddd;
+  }
+
+  .charts_analysis{
+    display: flex;
+    gap: 30px;
+  }
+  .linechart_analysis{
+    margin-top: 10px;
+  }
+  .barchart_analysis{
+    width: 550px;
+  }
+  .dashboard_d {
+    background: linear-gradient(135deg, #ffffff 0%, #aad4f5 100%);
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  

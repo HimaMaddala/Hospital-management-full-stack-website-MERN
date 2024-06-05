@@ -1,0 +1,118 @@
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 
+    1px 1px 0px 0px, 
+    2px 2px 0px 0px, 
+    3px 3px 0px 0px, 
+    4px 4px 0px 0px, 
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+
+
+.doctor-card {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.doctor-info {
+  width: 800px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-left: 150px;
+  /* flex-grow: 1; */
+  display: flex;
+}
+.second-col{
+  width: 400px;
+}
+
+.doctor-name {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.doctor-specialty,
+.doctor-experience {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* filters section */
+.filterscard {
+  display: flex;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.filters select {
+   padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.filters select:focus {
+  outline: none;
+}
+
+.filters select option {
+  font-size: 14px;
+}
+
+/* Adjust styles as needed */
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.slot {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+
